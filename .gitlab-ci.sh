@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install dependencies only for Docker.
-[[ ! -e /.dockerinit ]] && exit 0
+[[ ! -e /.dockerenv ]] && exit 0
 set -xe
 
 # Update packages and install composer and PHP dependencies.
